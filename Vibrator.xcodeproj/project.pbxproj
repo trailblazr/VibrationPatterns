@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F8A86A71785C33C000F99F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8A86A61785C33C000F99F1 /* UIKit.framework */; };
+		8F8A86A91785C33C000F99F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8A86A81785C33C000F99F1 /* Foundation.framework */; };
+		8F8A86AB1785C33C000F99F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8A86AA1785C33C000F99F1 /* CoreGraphics.framework */; };
+		8F8A86B11785C33C000F99F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F8A86AF1785C33C000F99F1 /* InfoPlist.strings */; };
+		8F8A86B31785C33C000F99F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8A86B21785C33C000F99F1 /* main.m */; };
+		8F8A86B71785C33C000F99F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8A86B61785C33C000F99F1 /* AppDelegate.m */; };
+		8F8A86B91785C33C000F99F1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F8A86B81785C33C000F99F1 /* Default.png */; };
+		8F8A86BB1785C33C000F99F1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F8A86BA1785C33C000F99F1 /* Default@2x.png */; };
+		8F8A86BD1785C33D000F99F1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F8A86BC1785C33D000F99F1 /* Default-568h@2x.png */; };
+		8F8A86C41785C388000F99F1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8A86C31785C388000F99F1 /* AudioToolbox.framework */; };
+		8F8A86C81785C3B3000F99F1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8A86C61785C3B3000F99F1 /* MainViewController.m */; };
+		8F8A86C91785C3B3000F99F1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F8A86C71785C3B3000F99F1 /* MainViewController.xib */; };
+		8F8A86CB17860B88000F99F1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8A86CA17860B88000F99F1 /* QuartzCore.framework */; };
+		8F8A86D217860E26000F99F1 /* Icon_72.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F8A86CD17860E26000F99F1 /* Icon_72.png */; };
+		8F8A86D317860E26000F99F1 /* Icon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F8A86CE17860E26000F99F1 /* Icon_114.png */; };
+		8F8A86D517860E26000F99F1 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 8F8A86D017860E26000F99F1 /* iTunesArtwork */; };
+		8F8A86D7178610AF000F99F1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8A86D6178610AF000F99F1 /* SystemConfiguration.framework */; };
+		8FA3E03B17862ABC00D60DE5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA3E03A17862ABC00D60DE5 /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F8A86A31785C33C000F99F1 /* Vibrator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vibrator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8A86A61785C33C000F99F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8F8A86A81785C33C000F99F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8F8A86AA1785C33C000F99F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8F8A86AE1785C33C000F99F1 /* Vibrator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Vibrator-Info.plist"; path = "Vibrator/Vibrator-Info.plist"; sourceTree = "<group>"; };
+		8F8A86B01785C33C000F99F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F8A86B21785C33C000F99F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Vibrator/main.m; sourceTree = "<group>"; };
+		8F8A86B41785C33C000F99F1 /* Vibrator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Vibrator-Prefix.pch"; path = "Vibrator/Vibrator-Prefix.pch"; sourceTree = "<group>"; };
+		8F8A86B51785C33C000F99F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F8A86B61785C33C000F99F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F8A86B81785C33C000F99F1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8F8A86BA1785C33C000F99F1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8F8A86BC1785C33D000F99F1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8F8A86C31785C388000F99F1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8F8A86C51785C3B3000F99F1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		8F8A86C61785C3B3000F99F1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8F8A86C71785C3B3000F99F1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		8F8A86CA17860B88000F99F1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8F8A86CD17860E26000F99F1 /* Icon_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_72.png; sourceTree = SOURCE_ROOT; };
+		8F8A86CE17860E26000F99F1 /* Icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_114.png; sourceTree = SOURCE_ROOT; };
+		8F8A86D017860E26000F99F1 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = SOURCE_ROOT; };
+		8F8A86D6178610AF000F99F1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8FA3E03A17862ABC00D60DE5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F8A86A01785C33C000F99F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8A86D7178610AF000F99F1 /* SystemConfiguration.framework in Frameworks */,
+				8F8A86CB17860B88000F99F1 /* QuartzCore.framework in Frameworks */,
+				8F8A86C41785C388000F99F1 /* AudioToolbox.framework in Frameworks */,
+				8F8A86A71785C33C000F99F1 /* UIKit.framework in Frameworks */,
+				8F8A86A91785C33C000F99F1 /* Foundation.framework in Frameworks */,
+				8F8A86AB1785C33C000F99F1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F8A869A1785C33C000F99F1 = {
+			isa = PBXGroup;
+			children = (
+				8F8A86B41785C33C000F99F1 /* Vibrator-Prefix.pch */,
+				8F8A86AE1785C33C000F99F1 /* Vibrator-Info.plist */,
+				8F8A86B21785C33C000F99F1 /* main.m */,
+				8F8A86AC1785C33C000F99F1 /* Vibrator */,
+				8F8A86A51785C33C000F99F1 /* Frameworks */,
+				8F8A86A41785C33C000F99F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F8A86A41785C33C000F99F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F8A86A31785C33C000F99F1 /* Vibrator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F8A86A51785C33C000F99F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F8A86C31785C388000F99F1 /* AudioToolbox.framework */,
+				8F8A86A61785C33C000F99F1 /* UIKit.framework */,
+				8F8A86A81785C33C000F99F1 /* Foundation.framework */,
+				8F8A86AA1785C33C000F99F1 /* CoreGraphics.framework */,
+				8F8A86D6178610AF000F99F1 /* SystemConfiguration.framework */,
+				8F8A86CA17860B88000F99F1 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F8A86AC1785C33C000F99F1 /* Vibrator */ = {
+			isa = PBXGroup;
+			children = (
+				8F8A86B51785C33C000F99F1 /* AppDelegate.h */,
+				8F8A86B61785C33C000F99F1 /* AppDelegate.m */,
+				8F8A86C51785C3B3000F99F1 /* MainViewController.h */,
+				8F8A86C61785C3B3000F99F1 /* MainViewController.m */,
+				8F8A86C71785C3B3000F99F1 /* MainViewController.xib */,
+				8F8A86AD1785C33C000F99F1 /* Supporting Files */,
+			);
+			path = Vibrator;
+			sourceTree = "<group>";
+		};
+		8F8A86AD1785C33C000F99F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F8A86AF1785C33C000F99F1 /* InfoPlist.strings */,
+				8F8A86B81785C33C000F99F1 /* Default.png */,
+				8F8A86BA1785C33C000F99F1 /* Default@2x.png */,
+				8F8A86BC1785C33D000F99F1 /* Default-568h@2x.png */,
+				8FA3E03A17862ABC00D60DE5 /* Icon.png */,
+				8F8A86CD17860E26000F99F1 /* Icon_72.png */,
+				8F8A86CE17860E26000F99F1 /* Icon_114.png */,
+				8F8A86D017860E26000F99F1 /* iTunesArtwork */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F8A86A21785C33C000F99F1 /* Vibrator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F8A86C01785C33D000F99F1 /* Build configuration list for PBXNativeTarget "Vibrator" */;
+			buildPhases = (
+				8F8A869F1785C33C000F99F1 /* Sources */,
+				8F8A86A01785C33C000F99F1 /* Frameworks */,
+				8F8A86A11785C33C000F99F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vibrator;
+			productName = Vibrator;
+			productReference = 8F8A86A31785C33C000F99F1 /* Vibrator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F8A869B1785C33C000F99F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = appdoctors;
+			};
+			buildConfigurationList = 8F8A869E1785C33C000F99F1 /* Build configuration list for PBXProject "Vibrator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8F8A869A1785C33C000F99F1;
+			productRefGroup = 8F8A86A41785C33C000F99F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F8A86A21785C33C000F99F1 /* Vibrator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F8A86A11785C33C000F99F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8A86B11785C33C000F99F1 /* InfoPlist.strings in Resources */,
+				8F8A86B91785C33C000F99F1 /* Default.png in Resources */,
+				8F8A86BB1785C33C000F99F1 /* Default@2x.png in Resources */,
+				8F8A86BD1785C33D000F99F1 /* Default-568h@2x.png in Resources */,
+				8F8A86C91785C3B3000F99F1 /* MainViewController.xib in Resources */,
+				8F8A86D217860E26000F99F1 /* Icon_72.png in Resources */,
+				8F8A86D317860E26000F99F1 /* Icon_114.png in Resources */,
+				8F8A86D517860E26000F99F1 /* iTunesArtwork in Resources */,
+				8FA3E03B17862ABC00D60DE5 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F8A869F1785C33C000F99F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8A86B31785C33C000F99F1 /* main.m in Sources */,
+				8F8A86B71785C33C000F99F1 /* AppDelegate.m in Sources */,
+				8F8A86C81785C3B3000F99F1 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F8A86AF1785C33C000F99F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F8A86B01785C33C000F99F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F8A86BE1785C33D000F99F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F8A86BF1785C33D000F99F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F8A86C11785C33D000F99F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vibrator/Vibrator-Prefix.pch";
+				INFOPLIST_FILE = "Vibrator/Vibrator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8F8A86C21785C33D000F99F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vibrator/Vibrator-Prefix.pch";
+				INFOPLIST_FILE = "Vibrator/Vibrator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F8A869E1785C33C000F99F1 /* Build configuration list for PBXProject "Vibrator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8A86BE1785C33D000F99F1 /* Debug */,
+				8F8A86BF1785C33D000F99F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F8A86C01785C33D000F99F1 /* Build configuration list for PBXNativeTarget "Vibrator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8A86C11785C33D000F99F1 /* Debug */,
+				8F8A86C21785C33D000F99F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F8A869B1785C33C000F99F1 /* Project object */;
+}
